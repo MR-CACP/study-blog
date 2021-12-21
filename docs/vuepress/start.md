@@ -1,4 +1,4 @@
-# 快速上手
+# 快速开始
 
 ::: tip
 - 本文环境Windows+node，其他环境请前往[官网](https://v2.vuepress.vuejs.org/zh/) 。
@@ -51,7 +51,7 @@ npm install -D vuepress@next
 }
 ```
 
-- **步骤5**: 将默认的临时目录和缓存目录添加到 `.gitignore` 文件中
+- **步骤5**: 将默认的临时目录`.temp` 和缓存目录`.cache` 添加到 `.gitignore` 文件中, `node_modules`不用再强调吧？
 
 - **步骤6**: 创建你的第一篇文档 docs/README.md
 

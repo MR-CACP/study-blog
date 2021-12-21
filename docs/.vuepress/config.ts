@@ -10,27 +10,22 @@ module.exports = {
     navbar: [
       { text: "主页", link: "/" },
       { 
-        text: "vue学习",
+        text: "vuepress",
         children: [
-          {
-            text: 'VuePress',
-            children: [
-              '/vue/vuepress.md',
-              '/vue/config.md',
-              '/vue/plugin.md'
-            ]
-          }
+          '/vuepress/start.md',
+          '/vuepress/config.md',
+          '/vuepress/plugin.md'
         ]
       }
     ],
     sidebar: {
-      '/vue/': [
+      '/vuepress/': [
         {
           text: 'VuePress',
           children: [
-            '/vue/vuepress.md',
-            '/vue/config.md',
-            '/vue/plugin.md'
+            '/vuepress/start.md',
+            '/vuepress/config.md',
+            '/vuepress/plugin.md'
           ]
         }
       ]
