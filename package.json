@@ -1,0 +1,19 @@
+{
+  "name": "study-blog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^2.0.0-beta.29"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^2.0.0-beta.29",
+    "@vuepress/plugin-search": "^2.0.0-beta.29"
+  }
+}
