@@ -9,6 +9,13 @@ module.exports = {
     logo: '/logo.png',
     navbar: [
       { text: "主页", link: "/" },
+      { text: "前端基础", link: '/base/' },
+      { 
+        text: "vue",
+        children: [
+          '/vue/question.md'
+        ]
+      },
       { 
         text: "vuepress",
         children: [
@@ -26,6 +33,14 @@ module.exports = {
             '/vuepress/start.md',
             '/vuepress/config.md',
             '/vuepress/plugin.md'
+          ]
+        }
+      ],
+      '/vue/': [
+        {
+          text: 'vue',
+          children: [
+            '/vue/question.md'
           ]
         }
       ]

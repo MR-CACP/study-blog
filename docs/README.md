@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: 熊猫先生的学习之旅
 actions:
   - text: 开始阅读 →
-    link: /vue/
+    link: /base/
     type: primary
 features:
 - title: 前端基础
