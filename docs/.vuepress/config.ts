@@ -23,6 +23,23 @@ module.exports = {
           '/vuepress/config.md',
           '/vuepress/plugin.md'
         ]
+      },
+      { 
+        text: "NodeJs",
+        children: [
+          {
+            text: 'MongoDB',
+            children: [
+              '/nodejs/mongodb/introduction.md',
+              '/nodejs/mongodb/shell.md',
+              '/nodejs/mongodb/security.md',
+              '/nodejs/mongodb/curd.md',
+              '/nodejs/mongodb/indexes.md',
+              '/nodejs/mongodb/aggregation',
+              '/nodejs/mongodb/backups'
+            ],
+          }
+        ]
       }
     ],
     sidebar: {
@@ -41,6 +58,20 @@ module.exports = {
           text: 'vue',
           children: [
             '/vue/question.md'
+          ]
+        }
+      ],
+      '/nodejs/': [
+        {
+          text: 'MongoDB',
+          children: [
+            '/nodejs/mongodb/introduction.md',
+            '/nodejs/mongodb/shell.md',
+            '/nodejs/mongodb/security.md',
+            '/nodejs/mongodb/curd.md',
+            '/nodejs/mongodb/indexes.md',
+            '/nodejs/mongodb/aggregation',
+            '/nodejs/mongodb/backups'
           ]
         }
       ]
